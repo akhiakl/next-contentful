@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    "paths": {},
+    "pretty": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "target": "es2016", 
+    "module": "commonjs",
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist"
+  },
+  "include": [
+    ".eslintrc.js",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

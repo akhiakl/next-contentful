@@ -1,0 +1,152 @@
+{
+  "contentTypes": [
+    {
+      "name": "💎 component - SEO",
+      "description": "To have SEO-related properties in the pages we render",
+      "displayField": "internalName",
+      "fields": [
+        {
+          "id": "internalName",
+          "name": "Internal name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "pageTitle",
+          "name": "Page title",
+          "type": "Symbol",
+          "localized": true,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "pageDescription",
+          "name": "Page description",
+          "type": "Text",
+          "localized": true,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "canonicalUrl",
+          "name": "Canonical URL",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "nofollow",
+          "name": "nofollow",
+          "type": "Boolean",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "defaultValue": {
+            "en-US": false
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "noindex",
+          "name": "noindex",
+          "type": "Boolean",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "defaultValue": {
+            "en-US": false
+          },
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shareImages",
+          "name": "Share images",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "size": {
+                "max": 3
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkMimetypeGroup": ["image"]
+              }
+            ],
+            "linkType": "Asset"
+          }
+        }
+      ],
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "fsgweqpki03a"
+          }
+        },
+        "id": "componentSeo",
+        "type": "ContentType",
+        "createdAt": "2023-02-14T04:29:52.997Z",
+        "updatedAt": "2023-05-29T03:53:27.847Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2023-05-29T03:53:27.847Z",
+        "firstPublishedAt": "2023-02-14T04:29:53.543Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wKJ0n8cNV41pwUigJkEb5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wKJ0n8cNV41pwUigJkEb5"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wKJ0n8cNV41pwUigJkEb5"
+          }
+        }
+      }
+    }
+  ]
+}
