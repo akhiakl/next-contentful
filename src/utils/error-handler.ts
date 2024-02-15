@@ -1,7 +1,7 @@
 import type { NextApiResponse } from "next";
 import { HttpStatusCode } from "../types";
 
-const apiErrorHandler = (err: unknown, res: NextApiResponse): void => {
+export const apiErrorHandler = (err: unknown, res: NextApiResponse): void => {
   // Log errors
   console.error(err);
   if (err instanceof Error) {
@@ -14,4 +14,3 @@ const apiErrorHandler = (err: unknown, res: NextApiResponse): void => {
     errors: err,
   });
 };
-export default apiErrorHandler;
