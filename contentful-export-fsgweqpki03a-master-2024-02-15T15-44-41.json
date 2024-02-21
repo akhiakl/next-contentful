@@ -87,7 +87,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["componentSeo"]
+              "linkContentType": [
+                "componentSeo"
+              ]
             }
           ],
           "disabled": false,
@@ -114,7 +116,8 @@
           "type": "Text",
           "localized": true,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -142,7 +145,9 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": ["image"]
+              "linkMimetypeGroup": [
+                "image"
+              ]
             }
           ],
           "disabled": false,
@@ -168,7 +173,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkMimetypeGroup": ["image"]
+                "linkMimetypeGroup": [
+                  "image"
+                ]
               }
             ],
             "linkType": "Asset"
@@ -193,7 +200,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["pageProduct"]
+                "linkContentType": [
+                  "pageProduct"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -258,7 +267,8 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -282,7 +292,8 @@
           "type": "Text",
           "localized": true,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -292,7 +303,8 @@
           "type": "Symbol",
           "localized": true,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -302,7 +314,8 @@
           "type": "Boolean",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "defaultValue": {
             "en-US": false
           },
@@ -315,7 +328,8 @@
           "type": "Boolean",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "defaultValue": {
             "en-US": false
           },
@@ -341,7 +355,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkMimetypeGroup": ["image"]
+                "linkMimetypeGroup": [
+                  "image"
+                ]
               }
             ],
             "linkType": "Asset"
@@ -406,7 +422,8 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -418,7 +435,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["componentSeo"]
+              "linkContentType": [
+                "componentSeo"
+              ]
             }
           ],
           "disabled": false,
@@ -468,7 +487,9 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": ["image"]
+              "linkMimetypeGroup": [
+                "image"
+              ]
             }
           ],
           "disabled": false,
@@ -494,7 +515,9 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["pageProduct"]
+                "linkContentType": [
+                  "pageProduct"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -559,7 +582,8 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -569,7 +593,8 @@
           "type": "Object",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         }
@@ -632,7 +657,8 @@
           "type": "Symbol",
           "localized": true,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -644,7 +670,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["pageProduct"]
+              "linkContentType": [
+                "pageProduct"
+              ]
             }
           ],
           "disabled": false,
@@ -659,7 +687,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["componentSeo"]
+              "linkContentType": [
+                "componentSeo"
+              ]
             }
           ],
           "disabled": false,
@@ -725,7 +755,8 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -735,7 +766,8 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -769,7 +801,12 @@
               "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
             },
             {
-              "enabledMarks": ["bold", "italic", "underline", "code"],
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
               "message": "Only bold, italic, underline, and code marks are allowed"
             }
           ],
@@ -782,14 +819,17 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkContentType": ["blogCategory"]
+                "linkContentType": [
+                  "blogCategory"
+                ]
               }
             ],
             "linkType": "Entry"
@@ -854,7 +894,8 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -864,7 +905,8 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false,
           "linkType": "Entry"
@@ -928,7 +970,8 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false
         },
@@ -938,7 +981,8 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false,
           "linkType": "Asset"
@@ -949,7 +993,8 @@
           "type": "Link",
           "localized": false,
           "required": false,
-          "validations": [],
+          "validations": [
+          ],
           "disabled": false,
           "omitted": false,
           "linkType": "Entry"
@@ -962,7 +1007,9 @@
           "required": false,
           "validations": [
             {
-              "linkContentType": ["blogCategory"]
+              "linkContentType": [
+                "blogCategory"
+              ]
             }
           ],
           "disabled": false,
@@ -972,7 +1019,8 @@
       ]
     }
   ],
-  "tags": [],
+  "tags": [
+  ],
   "editorInterfaces": [
     {
       "sys": {
@@ -1137,32 +1185,38 @@
       },
       "sidebar": [
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "1HJiFN4cveeXPT62HWsVxH",
           "widgetNamespace": "app"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "publication-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "content-preview-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "incoming-links-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "translation-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "versions-widget",
           "widgetNamespace": "sidebar-builtin"
         }
@@ -1355,49 +1409,58 @@
       },
       "editors": [
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "default-editor",
           "widgetNamespace": "editor-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "tags-editor",
           "widgetNamespace": "editor-builtin"
         }
       ],
       "sidebar": [
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "1HJiFN4cveeXPT62HWsVxH",
           "widgetNamespace": "app"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "66frtrAqmWSowDJzQNDiD",
           "widgetNamespace": "app"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "publication-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "content-preview-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "incoming-links-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "translation-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "versions-widget",
           "widgetNamespace": "sidebar-builtin"
         }
@@ -1463,32 +1526,38 @@
       },
       "sidebar": [
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "1HJiFN4cveeXPT62HWsVxH",
           "widgetNamespace": "app"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "publication-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "content-preview-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "incoming-links-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "translation-widget",
           "widgetNamespace": "sidebar-builtin"
         },
         {
-          "settings": {},
+          "settings": {
+          },
           "widgetId": "versions-widget",
           "widgetNamespace": "sidebar-builtin"
         }
@@ -1703,7 +1772,8 @@
   "entries": [
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -1750,7 +1820,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1816,7 +1887,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -1863,7 +1935,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1929,7 +2002,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -1976,7 +2050,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2042,7 +2117,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2089,7 +2165,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2155,7 +2232,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2202,7 +2280,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2268,7 +2347,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2315,7 +2395,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2403,7 +2484,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2450,7 +2532,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2516,7 +2599,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2563,7 +2647,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2594,7 +2679,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2641,7 +2727,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2672,7 +2759,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2719,7 +2807,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2750,7 +2839,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2797,7 +2887,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2828,7 +2919,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2875,7 +2967,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2906,7 +2999,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -2953,7 +3047,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2984,7 +3079,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3031,7 +3127,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3073,7 +3170,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3120,7 +3218,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3165,7 +3264,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3212,7 +3312,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3257,7 +3358,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3304,7 +3406,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3339,7 +3442,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3386,7 +3490,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3403,7 +3508,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3450,7 +3556,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3465,14 +3572,18 @@
         },
         "description": {
           "en-US": {
-            "data": {},
+            "data": {
+            },
             "content": [
               {
-                "data": {},
+                "data": {
+                },
                 "content": [
                   {
-                    "data": {},
-                    "marks": [],
+                    "data": {
+                    },
+                    "marks": [
+                    ],
                     "value": "No desc",
                     "nodeType": "text"
                   }
@@ -3498,7 +3609,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3545,7 +3657,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3571,7 +3684,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3618,7 +3732,8 @@
             "id": "0wKJ0n8cNV41pwUigJkEb5"
           }
         },
-        "automationTags": [],
+        "automationTags": [
+        ],
         "contentType": {
           "sys": {
             "type": "Link",
@@ -3637,7 +3752,8 @@
   "assets": [
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3711,7 +3827,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3785,7 +3902,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3858,7 +3976,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -3932,7 +4051,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -4006,7 +4126,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -4079,7 +4200,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -4152,7 +4274,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -4226,7 +4349,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -4299,7 +4423,8 @@
     },
     {
       "metadata": {
-        "tags": []
+        "tags": [
+        ]
       },
       "sys": {
         "space": {
@@ -4464,7 +4589,8 @@
       }
     }
   ],
-  "webhooks": [],
+  "webhooks": [
+  ],
   "roles": [
     {
       "name": "Author",
@@ -4472,7 +4598,9 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -4488,7 +4616,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -4504,7 +4634,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -4520,7 +4652,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["create"],
+          "actions": [
+            "create"
+          ],
           "constraint": {
             "and": [
               {
@@ -4536,7 +4670,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -4552,7 +4688,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -4568,12 +4706,19 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": [],
-        "Environments": [],
-        "EnvironmentAliases": [],
-        "Tags": []
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
       },
       "sys": {
         "type": "Role",
@@ -4642,12 +4787,19 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": [],
-        "Environments": [],
-        "EnvironmentAliases": [],
-        "Tags": []
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
       },
       "sys": {
         "type": "Role",
@@ -4684,7 +4836,9 @@
       "policies": [
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -4700,7 +4854,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["read"],
+          "actions": [
+            "read"
+          ],
           "constraint": {
             "and": [
               {
@@ -4716,7 +4872,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -4739,7 +4897,9 @@
         },
         {
           "effect": "allow",
-          "actions": ["update"],
+          "actions": [
+            "update"
+          ],
           "constraint": {
             "and": [
               {
@@ -4762,12 +4922,19 @@
         }
       ],
       "permissions": {
-        "ContentModel": ["read"],
-        "Settings": [],
-        "ContentDelivery": [],
-        "Environments": [],
-        "EnvironmentAliases": [],
-        "Tags": []
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
       },
       "sys": {
         "type": "Role",
